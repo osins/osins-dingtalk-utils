@@ -67,9 +67,13 @@ ___
 #### Defined in
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [optional.ts:29](https://github.com/osins/osins-utils/blob/096e636/src/optional.ts#L29)
 =======
 optional.ts:27
+=======
+optional.ts:28
+>>>>>>> ae4c564 (update)
 
 ___
 

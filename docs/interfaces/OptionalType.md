@@ -20,6 +20,7 @@
 - [icbumberNotZeroOrElse](OptionalType.md#icbumbernotzeroorelse)
 - [ifArrayNotEmpty](OptionalType.md#ifarraynotempty)
 - [ifArrayNotEmptyOrElse](OptionalType.md#ifarraynotemptyorelse)
+- [ifEmpty](OptionalType.md#ifempty)
 - [ifFail](OptionalType.md#iffail)
 - [ifIsTrue](OptionalType.md#ifistrue)
 - [ifIsTrueOrElse](OptionalType.md#ifistrueorelse)
@@ -102,10 +103,14 @@ ___
 #### Defined in
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [optional.ts:24](https://github.com/osins/osins-utils/blob/096e636/src/optional.ts#L24)
 =======
 optional.ts:19
 >>>>>>> 60e3c40 (update)
+=======
+optional.ts:20
+>>>>>>> ae4c564 (update)
 
 ___
 
@@ -130,10 +135,38 @@ ___
 #### Defined in
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [optional.ts:26](https://github.com/osins/osins-utils/blob/096e636/src/optional.ts#L26)
 =======
 optional.ts:20
 >>>>>>> 60e3c40 (update)
+=======
+optional.ts:21
+
+___
+
+### ifEmpty
+
+• **ifEmpty**: (`cb`: () => `any`) => `T`
+
+#### Type declaration
+
+▸ (`cb`): `T`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `cb` | () => `any` |
+
+##### Returns
+
+`T`
+
+#### Defined in
+
+optional.ts:14
+>>>>>>> ae4c564 (update)
 
 ___
 
@@ -158,10 +191,14 @@ ___
 #### Defined in
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [optional.ts:11](https://github.com/osins/osins-utils/blob/096e636/src/optional.ts#L11)
 =======
 optional.ts:14
 >>>>>>> 60e3c40 (update)
+=======
+optional.ts:15
+>>>>>>> ae4c564 (update)
 
 ___
 
@@ -187,10 +224,14 @@ ___
 #### Defined in
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [optional.ts:12](https://github.com/osins/osins-utils/blob/096e636/src/optional.ts#L12)
 =======
 optional.ts:22
 >>>>>>> 60e3c40 (update)
+=======
+optional.ts:23
+>>>>>>> ae4c564 (update)
 
 ___
 
@@ -215,10 +256,14 @@ ___
 #### Defined in
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [optional.ts:22](https://github.com/osins/osins-utils/blob/096e636/src/optional.ts#L22)
 =======
 optional.ts:21
 >>>>>>> 60e3c40 (update)
+=======
+optional.ts:22
+>>>>>>> ae4c564 (update)
 
 ___
 
@@ -244,10 +289,14 @@ ___
 #### Defined in
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [optional.ts:23](https://github.com/osins/osins-utils/blob/096e636/src/optional.ts#L23)
 =======
 optional.ts:24
 >>>>>>> 60e3c40 (update)
+=======
+optional.ts:25
+>>>>>>> ae4c564 (update)
 
 ___
 
@@ -382,10 +431,14 @@ ___
 #### Defined in
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [optional.ts:18](https://github.com/osins/osins-utils/blob/096e636/src/optional.ts#L18)
 =======
 optional.ts:15
 >>>>>>> 60e3c40 (update)
+=======
+optional.ts:16
+>>>>>>> ae4c564 (update)
 
 ___
 
@@ -426,10 +479,14 @@ ___
 #### Defined in
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [optional.ts:25](https://github.com/osins/osins-utils/blob/096e636/src/optional.ts#L25)
 =======
 optional.ts:23
 >>>>>>> 60e3c40 (update)
+=======
+optional.ts:24
+>>>>>>> ae4c564 (update)
 
 ___
 
