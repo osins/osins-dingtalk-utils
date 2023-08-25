@@ -147,21 +147,21 @@ ___
 
 ### ifEmpty
 
-• **ifEmpty**: (`cb`: () => `T`) => `T`
+• **ifEmpty**: (`cb`: () => `void`) => `void`
 
 #### Type declaration
 
-▸ (`cb`): `T`
+▸ (`cb`): `void`
 
 ##### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `cb` | () => `T` |
+| `cb` | () => `void` |
 
 ##### Returns
 
-`T`
+`void`
 
 #### Defined in
 
@@ -411,18 +411,31 @@ ___
 
 ### ifPresentOrElse
 
+<<<<<<< HEAD
 • **ifPresentOrElse**: (`cb1`: `undefined` \| (`value`: `T`) => `void`, `cb2`: `undefined` \| (`value`: `T`) => `void`) => ``null`` \| `T`
 
 #### Type declaration
 
 ▸ (`cb1`, `cb2`): ``null`` \| `T`
+=======
+• **ifPresentOrElse**: (`fn1`: `undefined` \| (`value`: `T`) => `void`, `fn2`: `undefined` \| (`value`: `T`) => `void`) => ``null`` \| `T`
+
+#### Type declaration
+
+▸ (`fn1`, `fn2`): ``null`` \| `T`
+>>>>>>> 3fd153f (update)
 
 ##### Parameters
 
 | Name | Type |
 | :------ | :------ |
+<<<<<<< HEAD
 | `cb1` | `undefined` \| (`value`: `T`) => `void` |
 | `cb2` | `undefined` \| (`value`: `T`) => `void` |
+=======
+| `fn1` | `undefined` \| (`value`: `T`) => `void` |
+| `fn2` | `undefined` \| (`value`: `T`) => `void` |
+>>>>>>> 3fd153f (update)
 
 ##### Returns
 
